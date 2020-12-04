@@ -14,9 +14,11 @@ introduction_with_language("Jesse", Ruby)
 
 
   
-  def introduction_with_language_optional(name, laguage = ruby)
+  def introduction_with_language_optional(name, laguage = "ruby")
     puts "Hi, my name is #{name} and I am a learning to progaram in #{language}."
 end
+
+
   
 
 
